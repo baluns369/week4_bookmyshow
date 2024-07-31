@@ -1,0 +1,43 @@
+
+<!-- saved from url=(0012)about:srcdoc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      img {
+        position: absolute;
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="js-promotion-banner" loading="lazy" onclick="handleBannerClick(event)" src="https://assets-in.bmscdn.com/promotions/cms/creatives/1722240287209_dkkhbag1240x300.jpg" alt="promotion-banner">
+    <script>
+      function handleBannerClick(event) {
+        event.preventDefault();
+        if ("https://in.bookmyshow.com/events/excuse-me-brother-standup-solo-by-aakash-gupta/ET00347268") {
+          let xhr = new XMLHttpRequest();
+          xhr.open("GET", "https://adtech-events.bookmyshow.com/adevent/v2/click?reqid=279b0936-476c-4878-b15e-e01b22dcea8a");
+          xhr.send();
+		  if('prod_desktop_hp_carousel_5'){
+              window.parent.BMSSDK.fireImpression("prod_desktop_hp_carousel_5")
+        	}
+          window.open("https://in.bookmyshow.com/events/excuse-me-brother-standup-solo-by-aakash-gupta/ET00347268");
+        }
+      }
+	  if (!'https://in.bookmyshow.com/events/excuse-me-brother-standup-solo-by-aakash-gupta/ET00347268') {
+        var imgId = document.getElementById("js-promotion-banner");
+        if (imgId) {
+          imgId.style.cursor = "default";
+        }
+      }
+    </script>
+  
+</body></html>
