@@ -282,7 +282,7 @@ background-color: #F5F5F5;
     /* border: 1px solid rgb(156, 65, 65); */
 }
 #section_2 h4{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: bold;
     }
 
@@ -298,7 +298,7 @@ background-color: #F5F5F5;
 #section_3{
     background-color: #2B3148;
     padding-top: 10px;
-
+margin-top: 50PX;
 }
 
 #section_3 img{
@@ -340,9 +340,9 @@ background-color: #F5F5F5;
 #section_7 {
     background-color: #F5F5F5;
     /* background-color: red; */
-    height: 100vh;
+    height: 60vh;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 #section_7 a{
     color: black;
@@ -383,9 +383,9 @@ background-color: #F5F5F5;
 #section_8 {
     background-color: #F5F5F5;
     /* background-color: rgb(10, 37, 190); */
-    padding-top: 10px;
+    padding-top: 50px;
     height: 60vh;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 #section_8 a{
     color: black;
